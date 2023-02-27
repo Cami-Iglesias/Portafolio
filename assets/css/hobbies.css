@@ -1,11 +1,11 @@
 .hobbies{
     font-family: var(--font__principal);
-    
+    padding: 1rem;
 }
 .hobbies__titulo{
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 .hobbies__box{
     
@@ -17,12 +17,15 @@
     text-align: center;
     border: 1px solid;
     padding: 3rem;
-    margin: 2rem;
+    margin: 0 2rem 2rem 2rem;
     width: 100px;
     height: 100px;
     background-color: var(--color__rosa);
 }
 
+.hobbie:hover{
+    box-shadow: 4px 4px 4px #CCC;
+}
 .hobbie__imagen{
     width: 3rem;
     margin: 0.5rem;

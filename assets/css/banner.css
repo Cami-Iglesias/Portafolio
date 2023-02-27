@@ -7,7 +7,7 @@
     display: flex;
     margin: 2rem;
     border-radius: 5em 0 5em 0;
-    background-color: var(--color__font);
+    background-color: var(--color__black);
     color: var(--color__rosa);
     flex-wrap: wrap;
     font-family: var(--font__principal);

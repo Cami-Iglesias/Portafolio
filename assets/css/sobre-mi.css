@@ -1,10 +1,12 @@
 .sobre{
     text-align: center;
     font-family: var(--font__principal);
-    padding: 6rem;
+    padding: 3rem;
+    background-color: var(--color__crema);
 }
 .sobre__titulo{
     text-transform: uppercase;
+    margin: 1rem 0 1rem 0;
 }
 .sobre__descripcion{
     font-size: 1.25rem;

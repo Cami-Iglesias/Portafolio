@@ -46,4 +46,7 @@
     .experiencia__box{
         text-align: center;
     }
+    .experiencia__box{
+        padding-bottom: 2rem;
+    }
 }

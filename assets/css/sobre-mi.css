@@ -1,7 +1,7 @@
 .sobre{
     text-align: center;
     font-family: var(--font__principal);
-    padding: 3rem;
+    padding: 2rem 7rem 2rem 7rem ;
     background-color: var(--color__crema);
 }
 .sobre__titulo{

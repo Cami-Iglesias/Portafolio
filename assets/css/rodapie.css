@@ -1,0 +1,7 @@
+.rodapie{
+    display: flex;
+    background-color: var(--color__rosa);
+    font-family: var(--font__principal);
+    justify-content: center;
+    padding: 1rem;
+}

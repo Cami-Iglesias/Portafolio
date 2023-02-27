@@ -1,0 +1,17 @@
+.volver{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    
+}
+.volver__flecha{
+    border-radius: 100%;
+    box-shadow: #cccccc 2px 2px 2px;
+    width: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.volver__flecha:hover{
+    box-shadow: 4px 4px 4px #CCC;
+}

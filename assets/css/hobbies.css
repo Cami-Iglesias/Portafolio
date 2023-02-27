@@ -21,6 +21,7 @@
     width: 100px;
     height: 100px;
     background-color: var(--color__rosa);
+    box-shadow: #cccccc 2px 2px 2px;
 }
 
 .hobbie:hover{

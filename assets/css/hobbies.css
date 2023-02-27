@@ -22,10 +22,11 @@
     height: 100px;
     background-color: var(--color__rosa);
     box-shadow: #cccccc 2px 2px 2px;
+    transition: 500ms;
 }
 
 .hobbie:hover{
-    box-shadow: 4px 4px 4px #CCC;
+    box-shadow: 4px 4px 4px var(--color__shadow);
 }
 .hobbie__imagen{
     width: 3rem;

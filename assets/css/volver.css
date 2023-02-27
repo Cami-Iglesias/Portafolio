@@ -6,12 +6,12 @@
 }
 .volver__flecha{
     border-radius: 100%;
-    box-shadow: #cccccc 2px 2px 2px;
     width: 70px;
     position: fixed;
     bottom: 30px;
     right: 30px;
+    transition: 5ms;
 }
 .volver__flecha:hover{
-    box-shadow: 4px 4px 4px #CCC;
+    width: 75px;
 }

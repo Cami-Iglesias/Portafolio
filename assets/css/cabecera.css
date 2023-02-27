@@ -1,0 +1,47 @@
+.cabecera{
+    display: flex;
+    background-color: var(--color__rosa);
+    font-family: var(--font__principal);
+    justify-content: space-between;
+}
+
+.cabecera__logo{
+    display: flex;
+    align-items: center;
+}
+.cabecera__img{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.cabecera__nombre{
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--color__font);
+}
+
+.menu__lista{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+.menu__item{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu__link{
+    padding: 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--color__font);
+}
+.menu__link:hover {
+    text-decoration: underline;
+    
+}

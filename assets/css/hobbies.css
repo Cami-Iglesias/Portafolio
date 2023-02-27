@@ -1,0 +1,29 @@
+.hobbies{
+    font-family: var(--font__principal);
+    
+}
+.hobbies__titulo{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.hobbies__box{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hobbie{
+    text-align: center;
+    border: 1px solid;
+    padding: 3rem;
+    margin: 2rem;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color__rosa);
+}
+
+.hobbie__imagen{
+    width: 3rem;
+    margin: 0.5rem;
+}

@@ -1,0 +1,12 @@
+.sobre{
+    text-align: center;
+    font-family: var(--font__principal);
+    padding: 6rem;
+}
+.sobre__titulo{
+    text-transform: uppercase;
+}
+.sobre__descripcion{
+    font-size: 1.25rem;
+
+}

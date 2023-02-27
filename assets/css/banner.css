@@ -1,0 +1,65 @@
+.conteiner{
+    background-color: var(--color__blanco);
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner {
+    display: flex;
+    margin: 2rem;
+    border-radius: 5em 0 5em 0;
+    background-color: var(--color__font);
+    color: var(--color__rosa);
+    flex-wrap: wrap;
+    font-family: var(--font__principal);
+}
+
+.banner__caja{
+    width: 60%;
+    margin: 2rem;
+}
+.banner__titulo{
+    width: 80%;
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+.banner__descripcion{
+    width: 80%;
+    margin-left: 2rem;
+    font-family: var(--font__principal);
+}
+.banner__foto{
+    background-image:url(../../assets/img/foto-mia-transformed.jpeg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 100%;
+    margin:  1rem;
+    
+}
+
+.banner__lista{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+}
+
+.banner__item:hover{
+    text-decoration: underline;
+}
+
+.banner__link{
+    display: flex;
+    color: var(--color__rosa);
+    text-decoration: none;
+    align-items: center;
+}
+.banner__imagen{
+    display: flex;
+    width: 2rem;
+    margin-right: 0.25rem;
+}
+

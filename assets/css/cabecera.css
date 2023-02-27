@@ -37,11 +37,10 @@
 .menu__link{
     padding: 0.5rem;
     margin: 0 0.5rem 0 0.5rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-decoration: none;
     color: var(--color__font);
 }
 .menu__link:hover {
     text-decoration: underline;
-    
 }

@@ -1,0 +1,64 @@
+.contacto{
+    font-family: var(--font__principal);
+    padding: 1rem;
+    text-align: center;
+}
+.contacto__titulo {
+    text-transform: uppercase;
+    margin: 1rem 0 1rem 0;
+}
+
+.contacto__box{
+    display: flex;
+    margin: 2rem;
+    border-radius: 0 5em 0 5em;
+    background-color: var(--color__black);
+    color: var(--color__rosa);
+    padding: 2rem;
+    justify-content: space-around;
+}
+.contacto__img{
+    width: 400px;
+    height: 500px;
+    background-image: url(../../assets/img/contacto.jpg);
+    background-size: cover;
+    border-radius: 0 3em 0 3em;
+}
+
+.contacto__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.contacto__input--name{
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+.contacto__input--email{
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+.contacto__input--asunto{
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.contacto__textarea{
+    margin-bottom: 1rem;
+}
+.contacto__boton{
+    align-self: center;
+    width: 300px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1px solid;
+    background-color: var(--color__rosa);
+    color: var(--color__black);
+}
+.contacto__boton:hover{
+    background-color: var(--color__black);
+    color: var(--color__rosa) ;
+    cursor: pointer;
+}

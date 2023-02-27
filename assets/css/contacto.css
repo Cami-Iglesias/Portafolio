@@ -62,3 +62,16 @@
     color: var(--color__rosa) ;
     cursor: pointer;
 }
+
+/* Layout */
+@media only screen and (min-device-width: 320px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2){
+    .container{
+        padding: 0;
+    }
+    .contacto__box {
+        margin: 0.5rem;
+    }
+    .contacto__img{
+        display: none;
+    }
+}

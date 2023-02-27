@@ -44,3 +44,16 @@
 .menu__link:hover {
     text-decoration: underline;
 }
+/* Layout */
+@media only screen and (min-device-width: 320px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2){
+    .cabecera{
+        justify-content: center;
+    }
+    .cabecera__nombre{
+        margin: 20px 16px 20px 0;
+    }
+    .menu__lista{
+        display: none;
+    }
+
+}

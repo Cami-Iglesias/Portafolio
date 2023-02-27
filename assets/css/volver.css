@@ -15,3 +15,13 @@
 .volver__flecha:hover{
     width: 75px;
 }
+
+/* Layout */
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2){
+    .volver__flecha{
+        width: 3rem;
+    }
+    .volver__flecha:hover{
+        width: 3rem;
+    }
+}

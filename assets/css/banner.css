@@ -63,3 +63,21 @@
     margin-right: 0.25rem;
 }
 
+/* Layout */
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner__titulo{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .banner__caja{
+        width: 100%;
+        margin: 1rem 1rem 0 1rem;
+    }
+    .banner__lista{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner__item{
+        margin-bottom: 1rem;
+    }
+} 

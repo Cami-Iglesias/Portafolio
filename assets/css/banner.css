@@ -63,7 +63,7 @@
     margin-right: 0.25rem;
 }
 
-/* Layout */
+/* Layout Celulares */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
     .banner__titulo{
         font-size: 1.5rem;
@@ -81,3 +81,41 @@
         margin-bottom: 1rem;
     }
 } 
+/* Layout Tablet */
+@media only screen and (min-device-width: 700px) and (max-device-width: 1500px){
+    .banner{
+        justify-content: center;
+    }
+    .banner__titulo{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        margin: 1rem;
+        margin-left: 1rem;
+
+    }
+    .banner__caja{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .banner__descripcion{
+        width: 100%;
+        margin: 2rem;
+        margin: 2rem;
+        margin-left: 2rem;
+    }
+
+    .banner__lista{
+        width: 100%;
+        
+        align-items: center;
+    }
+    .banner__item{
+        margin-bottom: 1rem;
+    }
+    .banner__foto{
+        height: 200px;
+        width: 200px;
+    }
+}

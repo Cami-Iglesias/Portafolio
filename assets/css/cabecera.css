@@ -44,8 +44,8 @@
 .menu__link:hover {
     text-decoration: underline;
 }
-/* Layout */
-@media only screen and (min-device-width: 320px) and (max-device-width: 765px) and (-webkit-min-device-pixel-ratio: 2){
+/* Layout Celulares*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2){
     .cabecera{
         justify-content: center;
     }
@@ -56,4 +56,13 @@
         display: none;
     }
 
+}
+/* Layout Tablet*/
+@media only screen and (min-device-width: 700px) and (max-device-width: 1500px){
+    .cabecera{
+        justify-content: center;
+    }
+    .cabecera__nombre {
+        display: none;
+    }
 }

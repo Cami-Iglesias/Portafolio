@@ -13,9 +13,12 @@
 
 }
 
-/* Layout */
+/* Layout Celulares */
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 2){
     .sobre{
         padding: 2rem;
+    }
+    .sobre__descripcion{
+        padding: 1rem;
     }
 }

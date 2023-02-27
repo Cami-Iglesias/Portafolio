@@ -28,7 +28,7 @@
     font-family: var(--font__principal);
 }
 .banner__foto{
-    background-image:url(../../assets/img/foto-mia-transformed.jpeg);
+    background-image:url(../../assets/img/foto-perfil.jpeg);
     height: 300px;
     width: 300px;
     background-size: cover;

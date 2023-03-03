@@ -18,7 +18,7 @@
     justify-content: space-around;
 }
 .contacto__img{
-    width: 400px;
+    width: 650px;
     height: 500px;
     background-image: url(../../assets/img/contacto.jpg);
     background-size: cover;
@@ -26,28 +26,30 @@
 }
 
 .contacto__form{
+    width: 500px;
+    height: 450px;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: justify;
 }
-.contacto__input--name{
+.contacto__input{
     padding: .5rem;
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
-.contacto__input--email{
-    padding: .5rem;
-    margin-bottom: 1rem;
-}
-.contacto__input--asunto{
-    padding: .5rem;
-    margin-bottom: 1rem;
-}
+
 
 .contacto__textarea{
     margin-bottom: 1rem;
+    border-radius: 5px;
+    
 }
 .contacto__boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-self: center;
     width: 300px;
     padding: 1rem;
@@ -57,6 +59,7 @@
     background-color: var(--color__rosa);
     color: var(--color__black);
 }
+
 .contacto__boton:hover{
     background-color: var(--color__black);
     color: var(--color__rosa) ;
@@ -81,5 +84,6 @@
     .contacto__img{
         width: 300px;
         height: 500px;
+        padding-right: 1rem;
     }
 }

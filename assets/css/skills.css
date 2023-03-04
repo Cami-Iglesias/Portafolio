@@ -26,6 +26,7 @@
 
 .skill:hover{
     box-shadow: 4px 4px 4px var(--color__shadow);
+    background-color: var(--color__crema);
 }
 
 .skill__logo{

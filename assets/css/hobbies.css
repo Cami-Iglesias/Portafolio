@@ -27,6 +27,7 @@
 
 .hobbie:hover{
     box-shadow: 4px 4px 4px var(--color__shadow);
+    background-color: var(--color__crema);
 }
 .hobbie__imagen{
     width: 3rem;

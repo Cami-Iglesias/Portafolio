@@ -29,8 +29,8 @@
     background-color: var(--color__rosa);
     text-decoration: none;
     color: var(--color__black);
-    padding: 0.5rem;
-    margin-right: 0.25rem;
+    padding: .5rem;
+    margin-right: .25rem;
 }
 
 .experiencia__boton:hover{

@@ -28,13 +28,13 @@
     border: 1px solid;
     background-color: var(--color__rosa);
     text-decoration: none;
-    color: var(--color__black);
+    color: #000000;
     padding: .5rem;
     margin-right: .25rem;
 }
 
 .experiencia__boton:hover{
-    background-color: var(--color__black);
+    background-color: var(--color__blue-oscuro);
     color: var(--color__rosa) ;
 }
 

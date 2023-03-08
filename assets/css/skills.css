@@ -7,11 +7,14 @@
     text-align: center;
     margin: 1rem 0 1rem 0;
 }
+
 .skills__box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
 .skill{
     text-align: center;
     border: 1px solid;

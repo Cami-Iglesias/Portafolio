@@ -1,8 +1,17 @@
 :root{
     --color__rosa: #E0CED1;
-    --color__black: #000000;
-    --color__balco: #f8eded;
+    --color__blue-oscuro: #001728;
     --font__principal: 'Quicksand', sans-serif;
     --color__crema:  #f8f2eb;
     --color__shadow: #b3b1b1;
+}
+
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-50px);
+    }
+    to {
+        transform: translateX(0px);
+    }
 }

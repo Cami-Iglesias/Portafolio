@@ -57,7 +57,7 @@
     font-size: 1rem;
     border: 1px solid;
     background-color: var(--color__rosa);
-    color: var(--color__black);
+    color: #000000;
 }
 
 .contacto__boton:hover{

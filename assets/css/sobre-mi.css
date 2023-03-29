@@ -18,6 +18,9 @@
     .sobre{
         padding: 2rem;
     }
+    .sobre__titulo{
+        padding-top: 1rem;
+    }
     .sobre__descripcion{
         padding: 1rem;
     }

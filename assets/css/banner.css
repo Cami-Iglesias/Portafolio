@@ -111,7 +111,7 @@
 
 
 /* Layout Tablet */
-@media only screen and (min-width: 700px) and (max-width: 1280px){
+@media only screen and (min-width: 700px) and (max-width: 992px){
     .banner{
         justify-content: center;
     }
@@ -133,9 +133,8 @@
 
     .banner__descripcion{
         width: 100%;
-        margin: 2rem;
-        margin: 2rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .banner__lista{
@@ -149,5 +148,6 @@
         height: 200px;
         width: 200px;
         animation: none;
+        margin-bottom: 2rem;
     }
 }
